@@ -1,0 +1,74 @@
+/* Chat containers */
+.chat-box {
+  height: 60vh;
+  overflow-y: auto;
+  background: #f3ede7; /* light beige */
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #d6c5b3;
+}
+
+.private-box {
+  height: 42vh;
+}
+
+/* Message wrapper */
+.msg {
+  margin-bottom: 12px;
+}
+
+/* Username + time */
+.msg .meta {
+  font-size: 12px;
+  opacity: 0.85;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #6b4f3f;
+}
+
+/* Chat bubble */
+.msg .bubble {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 14px;
+  max-width: 85%;
+  word-wrap: break-word;
+  background: #ffffff;
+  border: 1px solid #d2b48c;
+  color: #3e2a1a;
+}
+
+/* Your messages */
+.msg.me {
+  text-align: right;
+}
+
+.msg.me .bubble {
+  background: #8b5a2b; /* brown */
+  border-color: #6f4518;
+  color: #fffaf3;
+}
+
+/* System messages */
+.system {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.75;
+  margin: 12px 0;
+  color: #7a5c3a;
+}
+
+/* Scrollbar styling (optional but nice) */
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #b08968;
+  border-radius: 6px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: transparent;
+}
