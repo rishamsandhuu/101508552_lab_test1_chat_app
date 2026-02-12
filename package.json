@@ -1,0 +1,21 @@
+{
+  "name": "labtest1",
+  "version": "1.0.0",
+  "description": "A simple real-time chat application built using **Node.js, Express, Socket.io, and MongoDB**.  \r This project was created for a lab test and demonstrates authentication, room-based chat, private messaging, and message persistence.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishamsandhuu/101508552_lab_test1_chat_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishamsandhuu/101508552_lab_test1_chat_app/issues"
+  },
+  "homepage": "https://github.com/rishamsandhuu/101508552_lab_test1_chat_app#readme"
+}
