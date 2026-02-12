@@ -1,0 +1,49 @@
+.chat-box {
+  height: 60vh;
+  overflow-y: auto;
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.private-box {
+  height: 42vh;
+}
+
+.msg {
+  margin-bottom: 10px;
+}
+
+.msg .meta {
+  font-size: 12px;
+  opacity: 0.75;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.msg .bubble {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 12px;
+  max-width: 85%;
+  word-wrap: break-word;
+  background: white;
+  border: 1px solid #e3e3e3;
+}
+
+.msg.me {
+  text-align: right;
+}
+
+.msg.me .bubble {
+  background: #d1e7dd;
+  border-color: #badbcc;
+}
+
+.system {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.75;
+  margin: 10px 0;
+}
